@@ -1,5 +1,5 @@
 [package]
-name = "rabbitmq"
+name = "beagle"
 version = "0.1.0"
 authors = ["Maciej Ładoś <maciej@lados.dev>"]
 edition = "2018"
@@ -8,3 +8,7 @@ edition = "2018"
 
 [dependencies]
 amiquip = "0.4"
+clap = "2.33.3"
+ctrlc = "3.1.8"
+crossbeam-channel = "0.5.0"
+chrono = "0.4.19"

@@ -1,4 +1,3 @@
-extern crate clap;
 use amiquip::{Connection, Exchange, Publish, QueueDeclareOptions, Result};
 use clap::{App, Arg};
 use crossbeam_channel::{bounded, select, tick};
